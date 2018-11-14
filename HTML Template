@@ -15,8 +15,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()"
   class="w3-bar-item w3-button">Close Menu</a>
-  <a href="#articles" onclick="w3_close()" class="w3-bar-item w3-button">Articles</a>
+  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">Articles</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="#Microsoft" onclick="w3_close()" class="w3-bar-item w3-button">Microsoft</a>
+  <a href="#Apple" onclick="w3_close()" class="w3-bar-item w3-button">Apple</a>
+  <a href="#Linux" onclick="w3_close()" class="w3-bar-item w3-button">Linux</a>
+  <a href="#Android" onclick="w3_close()" class="w3-bar-item w3-button">Android</a>
 </nav>
 
 <!-- Top menu -->
@@ -32,23 +36,23 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 
   <!-- First Photo Grid-->
-  <div class="w3-row-padding w3-padding-16 w3-center" id="articles">
+  <div class="w3-row-padding w3-padding-16 w3-center" id="home">
     <div class="w3-quarter">
       <img src="https://cnet2.cbsistatic.com/img/01YkLokEwCM7l8Dr1eLq9SnHudw=/1600x900/2018/06/11/0de9d0a8-1609-4a15-bec4-91351c52882c/xbox-e3-logo.jpg" alt="Micorsoft VR" style="width:100%">
       <h3>Microsoft's XBox VR Headset</h3>
       <p>Microsoft said it didn't have specific plans to create an Xbox VR headset. What it didn't say is that it had been working on a device, but put existing VR plans on hold until better technology comes along.</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter" id="Linux">
       <img src="https://linuxconfig.org/images/mint-desktop-03.jpg?5bea0265" alt="Best Linux" style="width:100%">
       <h3>The Best Linux Distros for Beginners</h3>
       <p>There are distributions that work to make themselves accessible to people of every skill level and technical aptitude. They’re often called "Beginner distributions", but they aren’t just for beginners. Actually, any one of these choices would be great for everyone, but they’re also the best places for newbies to start. </p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter" id="Apple">
       <img src="https://icdn2.digitaltrends.com/image/dsc_7022-2-1499x1000.jpg" alt="iPhone XR" style="width:100%">
       <h3>iPhone XR Review</h3>
       <p>The iPhone XR is significantly more affordable and carries many of the best features from the flagships. It’s an unquestionably superb value at $750.</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter" id="Android">
       <img src="https://cdn57.androidauthority.net/wp-content/uploads/2016/06/Lenovo-foldable-smartphone-and-tablet-concept-first-look-6.jpg" alt="Folding Phone" style="width:100%">
       <h3>How the Foldable Smartphone Could Change Everything</h3>
       <p>These devices may come in various forms, but the first versions are tipped to have an “outward folding” display, wrapping around the front and back, rather than facing each other inside like the pages of a closed book.</p>
