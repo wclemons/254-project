@@ -136,7 +136,7 @@ header {
     background: blue;
     display: block;
     height: 3px;
-    width: 70%;
+    width: 75%;
     margin: 10px auto 5px;
 }
 
@@ -186,13 +186,6 @@ header {
     color: lavender;
     text-decoration: underline;
     font-style: italic;
-
-
-}
-.card img.image {
-    width: 300px;
-    height: auto;
-    border-top-left-radius: 20px;
 }
 
 .cardtitle {
@@ -204,6 +197,30 @@ header {
    
     line-height: 1.5em;
 }
+
+.card img.image {
+    width: 300px;
+    height: 200px;
+}
+/************************* Index Card *************************/
+.icon-container {
+    margin: auto;
+    margin-top: 20px;
+    width: 255px;
+    height: 255px;
+}
+
+.icon-label {
+    text-align: center;
+    font-size: 30px;
+}
+.icon-container img.image {
+    width: 255px;
+    height: 255px;
+    border-top-left-radius: 20px;
+  
+}
+
 
 /************************* Footer *************************/
 /************************* Footer *************************/
