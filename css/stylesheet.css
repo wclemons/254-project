@@ -37,7 +37,7 @@ header {
     color: white;
     display: block;
     height: 200px;
-    
+
     /*margin: auto auto auto auto;*/
 }
 
@@ -54,7 +54,7 @@ header {
     margin: auto;
     border: purple 3px solid;*/
     float: right;
-   
+
 }
 
 
@@ -63,7 +63,7 @@ header {
    /*min-height: 0px;*/
    /*margin auto auto auto auto;*/
    /*border: lawngreen 3px solid;*/
-   
+
 }
 
 .main-nav li {
@@ -95,12 +95,12 @@ header {
     margin: 25px auto auto 50px;
 }
 .logo img {
-    
+
     width: 150px;
     height: 150px;
-    
+
     block-size: 150px;
-    
+
 }
 
 
@@ -117,7 +117,7 @@ header {
     margin: auto;
     height: 150px;
     width: 800px;
-   
+
     text-align: center;
 
 }
@@ -155,8 +155,8 @@ header {
     height: 850px;
     /*border: 1px solid yellowgreen;*/
     display: block;
-    
-   
+
+
 }
 
 /************************* Card *************************/
@@ -191,17 +191,17 @@ header {
 }
 .card img.image {
     width: 300px;
-    height: auto;
+    height: 200px;
     border-top-left-radius: 20px;
 }
 
 .cardtitle {
     font-size: 115.38%;
-    
+
 }
 
 .cardcontent{
-   
+
     line-height: 1.5em;
 }
 
@@ -223,9 +223,9 @@ footer {
 
 
 .owner {
-    
+
     border: 3px while solid;
-    
+
     width: 600px;
     height: 50px;
     margin: 0px 0px auto 0px;
@@ -263,9 +263,5 @@ footer {
     margin: auto;*/
     /*border: purple 3px solid;*/
     float: right;
-   
+
 }
-
-
-
-
