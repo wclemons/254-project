@@ -96,7 +96,7 @@ header {
 }
 .logo img {
     
-    width: 150px;
+    width: auto;
     height: 150px;
     
     block-size: 150px;
@@ -187,13 +187,16 @@ header {
     text-decoration: underline;
     font-style: italic;
 }
-
-.cardtitle {
+.card-label a:hover {
+    font-style: normal;
+    border: 2px white solid;
+    color: yellow;
+}
+.article-title {
     font-size: 115.38%;
-    
 }
 
-.cardcontent{
+.article-summary{
    
     line-height: 1.5em;
 }
@@ -213,6 +216,7 @@ header {
 .icon-label {
     text-align: center;
     font-size: 30px;
+    color: skyblue;
 }
 .icon-container img.image {
     width: 255px;
