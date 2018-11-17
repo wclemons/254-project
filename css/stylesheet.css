@@ -1,12 +1,6 @@
-/************************* Global *************************
-*
-{
-    margin: 0;
-    padding: 0;
-}
-
-*/
-/************************* Body *************************/
+/******************************************************************* 
+*                      Page Background                             * 
+*******************************************************************/
 
 body
 {
@@ -23,54 +17,37 @@ body
     max-width: 2300px;
 
     margin: auto;
-    display: block;
 }
 
-
-
-
-
-/************************* Header *************************/
+/****************************************************************** 
+*                       Page Header                              *
+******************************************************************/
 header {
 
     /*min-height: 200px;*/
     color: white;
-    display: block;
     height: 200px;
     
-    /*margin: auto auto auto auto;*/
 }
 
 /************************* Nav bar *************************/
-.header-nav {
+.nav-container {
     width: 600px;
     height: 50px;
-   /*
-    max-width: 1200px;
-    min-width: 500px;
-    min-height: 20px;
-    max-height: 100px;
-
-    margin: auto;
-    border: purple 3px solid;*/
     float: right;
-   
+    /*border: 3px white solid;*/
 }
 
 
-.main-nav {
-/*   list-style: none;*/
-   /*min-height: 0px;*/
-   /*margin auto auto auto auto;*/
+.nav {
    /*border: lawngreen 3px solid;*/
-   
 }
 
-.main-nav li {
+.nav li {
     display: inline-block;
 }
 
-.main-nav li a {
+.nav li a {
     color: white;
     text-decoration: none;
     padding: 5px 20px;
@@ -78,11 +55,11 @@ header {
     font-size: 1.154em /*15px*/;
 }
 
-.main-nav li.active a {
+.nav li.active a {
     border: 1px solid white;
 }
 
-.main-nav li a:hover {
+.nav li a:hover {
     border: 1px solid white;
 }
 
@@ -94,6 +71,7 @@ header {
     height: 150px;
     margin: 25px auto auto 50px;
 }
+
 .logo img {
     
     width: auto;
@@ -103,10 +81,8 @@ header {
     
 }
 
-
-
 /************************* Banner *************************/
-.row-banner {
+.banner-container {
     height: 150px;
     width: 1100px;
     float: left;
@@ -134,29 +110,20 @@ header {
 .banner h1::after {
     content: '';
     background: blue;
-    display: block;
     height: 3px;
     width: 75%;
     margin: 10px auto 5px;
 }
 
-/************************* Container *************************/
-/************************* Container *************************/
-.row-container {
-    margin: auto;
-    /*border: 1px purple solid;*/
-    display: block;
-    width: 1000px;
-    height: 500px;;
-}
+/****************************************************************** 
+*                    Container - Page body                       * 
+******************************************************************/
+
 .container {
     /*margin: 20px auto auto auto;*/
     width: 1320px; /*1340*/
     height: 850px;
-    /*border: 1px solid yellowgreen;*/
-    display: block;
-    
-   
+    border: 1px solid yellowgreen;
 }
 
 /************************* Card *************************/
@@ -196,15 +163,6 @@ header {
     font-size: 115.38%;
 }
 
-.article-summary{
-   
-    line-height: 1.5em;
-}
-
-.card img.image {
-    width: 300px;
-    height: 200px;
-}
 /************************* Index Card *************************/
 .icon-container {
     margin: auto;
@@ -213,29 +171,59 @@ header {
     height: 255px;
 }
 
-.icon-label {
-    text-align: center;
-    font-size: 30px;
-    color: skyblue;
-}
 .icon-container img.image {
     width: 255px;
     height: 255px;
     border-top-left-radius: 20px;
-  
+}
+
+.icon-label {
+
+}
+
+.icon-label h2 {
+    text-align: center;
+    font-size: 50px;
+    color: skyblue;
+}
+
+/************************* Article Card *************************/
+.article {
+    line-height: 1.5em;
+    /*border: 3px red solid;*/
+}
+
+.article img.image {
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 20px;
 }
 
 
-/************************* Footer *************************/
-/************************* Footer *************************/
+.article h2 {
+   
+    /*line-height: 1.5em;*/
+}
+
+/*
+.card img.image {
+    width: 300px;
+    height: 200px;
+}*/
+
+/****************************************************************** 
+*                      Page Footer                               * 
+******************************************************************/
+
 
 footer {
     /*border: orange 2px solid;*/
     height: 150px;
     color: white;
+    float: bottom;
 }
 /************************* Owner *************************/
-.contain-owner {
+.owner-container {
     /*border: 3px yellowgreen solid;*/
     width: 600px;
     height: 50px;
