@@ -1,25 +1,17 @@
-$(document).ready(function() {
-	//feed to parse
-	var feed = "https://www.theverge.com/rss/frontpage";
-	
-	$.ajax(feed, {
-		accepts:{
-			xml:"application/rss+xml"
-		},
-		dataType:"xml",
-		success:function(data) {
+google.load("feeds", "1");
 
-			$(data).find("item").each(function () { 
-				var el = $(this);
-				console.log("------------------------");
-				console.log("title      : " + el.find("title").text());
-				console.log("link       : " + el.find("link").text());
-				console.log("description: " + el.find("description").text());
-        console.log("image      : " + el.find("content").text());
-			});
-	
-
-		}	
-	});
-	
-});
+    function initialize() {
+      var feed = new google.feeds.Feed("https://www.theverge.com/rss/frontpage");
+      feed.load(function(result) {
+        if (!result.error) {
+          var container = document.getElementById("feed");
+          for (var i = 0; i < result.feed.entries.length; i++) {
+            var entry = result.feed.entries[i];
+            var div = document.createElement("div");
+            div.appendChild(document.createTextNode(entry.title));
+            container.appendChild(div);
+          }
+        }
+      });
+    }
+    google.setOnLoadCallback(initialize);
