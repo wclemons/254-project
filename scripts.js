@@ -12,7 +12,7 @@ var params = {
 	method: 'POST'
 };
 // Attempt to access api host api.smmry.com
-// enter api key and article url
+// enter api key and article url, article url taken from RSS feed script
 var req = http.request(params, function(res) {
 	res.on('data', function(data) {
 		console.log(JSON.parse(data.toString()));
